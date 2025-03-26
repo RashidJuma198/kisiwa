@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rashid Otieno Juma - IT Professional</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+
+        nav a:hover {
+            background-color: #3498db;
+            border-radius: 4px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .section {
+            background-color: white;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .skill-tag {
+            background-color: #3498db;
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rashid Otieno Juma</h1>
+        <p>IT Professional & Software Developer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="home" class="section">
+            <h2>Welcome</h2>
+            <p>Detail-oriented and resourceful Information Technology professional passionate about:</p>
+            <ul>
+                <li>Cloud Computing</li>
+                <li>Programming in Python, C, C++, PHP, JavaScript</li>
+                <li>Network System Maintenance</li>
+                <li>Linux Server Management</li>
+            </ul>
+            <p>Currently pursuing BSc in Software Development at International University of Applied Sciences in Germany</p>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            
+            <div class="section">
+                <h3>Career Profile</h3>
+                <p>Committed to staying at the forefront of industry developments while working independently or collaboratively. Seeking opportunities to advance in IT career.</p>
+            </div>
+
+            <div class="section">
+                <h3>Education</h3>
+                <ul>
+                    <li>BSc Software Development (2024-2027) - International University of Applied Sciences, Germany</li>
+                    <li>Artificial Intelligence Fundamentals (2024) - IBM</li>
+                    <li>CIPIT's Data Protection (2024) - Strathmore University</li>
+                    <li>Cyber-Security (2023) - Cisco Network Academy</li>
+                    <li>AWS re/Start (2023) - AWS Cloud Computing Practitioner</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h3>Skills</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Cloud Computing</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">C/C++</span>
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Linux Server</span>
+                    <span class="skill-tag">Network Maintenance</span>
+                    <span class="skill-tag">Database Management</span>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>Experience</h3>
+                <p>Attaché at Kenya Marine and Fisheries Research Institute (KMFRI) - July 2019 to December 2019</p>
+                <ul>
+                    <li>Computer systems installation and maintenance</li>
+                    <li>Hardware management and troubleshooting</li>
+                    <li>Network problem resolution</li>
+                    <li>Data entry and server management</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> rashidjuma198@gmail.com</p>
+                <p><strong>Phone:</strong> +254 793834558</p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/RashidJuma198" target="_blank">github.com/RashidJuma198</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rashid-juma-963497194" target="_blank">linkedin.com/in/rashid-juma-963497194</a></p>
+            </div>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Rashid Otieno Juma. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Simple form validation
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will respond shortly.');
+            this.reset();
+        });
+
+        // Smooth scrolling for navigation
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
